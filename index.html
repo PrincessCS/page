@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Web Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Welcome to My Web Page!</h2>
+                <img src="image/free-images.jpg" alt="photographer">
+            </div>
+        </section>
+        
+        <section id="about">
+            <div class="container">
+                <h2>About</h2>
+                <p>Find out more about us!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Expedita iste veniam assumenda mollitia veritatis dolorem quisquam aspernatur 
+                    quidem officiis amet non ea, excepturi at minima. Eum ipsa consectetur reprehenderit tempore?</p>
+            </div>
+        </section>
+        
+        <section id="services">
+            <h2>Services</h2>
+            <div class="container">
+                <div class="service">
+                    <img src="image/free-images.jpg" alt="">
+                    <h3>Service 1</h3>
+                    <p>We are available to render service 1.</p>
+                </div>
+                <div class="service">
+                    <img src="image/free-images.jpg" alt="">
+                    <h3>Service 2</h3>
+                    <p>We are available to render service 2.</p>
+                </div>
+                <div class="service">
+                    <img src="image/free-images.jpg" alt="">
+                    <h3>Service 3</h3>
+                    <p>We are available to render service 3.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Contact us for any service.</p>
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Web Page. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
